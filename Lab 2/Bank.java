@@ -120,7 +120,7 @@ public class Bank {
         System.out.print("how much withdraw? ");
         myAccount.takeMoney(input.nextDouble());
         
-        input.nextLine(); // idk why but needed
+        input.nextLine();
         
         // pin stuff
         System.out.print("make pin: ");
